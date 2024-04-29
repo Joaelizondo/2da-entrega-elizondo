@@ -23,6 +23,9 @@
 .bienvenida{
     min-height: 100vh;
     background-image: url(../assets/fondoinicio.png) ;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -113,6 +116,9 @@
 .contenedor__imagen{
     background-image: url(../assets/reikiprincipal2.png);
     min-height: 120vh;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
 }
 
 .contenedor__imagen__titulo{
@@ -175,6 +181,9 @@
 .contenedor__imagent {
     background-image: url(../assets/fondotarotmob.png);
     min-height: 120vh;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
 }
 
 /*flores*/
@@ -182,6 +191,9 @@
 .contenedor__imagenf {
     background-image: url(../assets/fondofloresmob.png);
     min-height: 100vh;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
 }
 
 .flores-en-animales{
@@ -275,7 +287,7 @@
 
 
 .container__boton:hover {
-    box-shadow: 0 0 0 0.25rem rgba(80, 74, 95, 0.5); /* Sombra del foco con el mismo color */
+    box-shadow: 0 0 0 0.25rem rgba(80, 74, 95, 0.5); 
     background-color: #504a5f;
     color: rgb(237, 237, 237);            
 }
@@ -551,7 +563,7 @@
         margin: 30px;
     }
 
-    /*flores*/
+    /*preguntas*/
 
     .seccion__titulo{
         font-family: "Great Vibes";
