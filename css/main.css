@@ -1,0 +1,443 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "merriweather";
+}
+
+/*header*/
+.menu-navegable {
+  border-bottom: 1px solid #808080;
+}
+
+.logo {
+  width: 80px;
+}
+
+.navbar {
+  background-color: #504a5f;
+}
+
+/* index */
+.bienvenida {
+  min-height: 100vh;
+  background-image: url(../assets/fondoinicio.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.bienvenida__titulo {
+  font-size: 40px;
+  padding: 40px;
+  color: rgb(237, 237, 237);
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+.bienvenida__texto1 {
+  font-size: 15px;
+  padding: 10px;
+  color: rgb(237, 237, 237);
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+.bienvenida__texto2 {
+  display: none;
+}
+
+.explicacion {
+  border-bottom: 1px solid black;
+  background-color: #504a5f;
+}
+.explicacion__titulo {
+  font-size: 40px;
+  padding: 40px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(237, 237, 237);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+.explicacion__parrafo {
+  text-align: center;
+  padding: 10px;
+  margin: 30px;
+  font-size: 15px;
+  color: rgb(237, 237, 237);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.servicios__titulo {
+  font-size: 80px;
+  padding: 40px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  text-align: center;
+  color: #504a5f;
+}
+
+.titulo-card {
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+  margin-top: 10px;
+  color: #504a5f;
+}
+
+.boton-main {
+  display: inline-block;
+  background-color: #504a5f;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+}
+.boton-main:hover {
+  background-color: #69627d;
+}
+
+.enlace-boton {
+  text-decoration: none;
+  color: rgb(237, 237, 237);
+}
+
+/* reiki */
+.contenedor__imagen {
+  background-image: url(../assets/reikiprincipal2.png);
+  min-height: 120vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contenedor__imagen__titulo {
+  font-family: "Great Vibes", cursive;
+  font-size: 120px;
+  color: rgb(237, 237, 237);
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.servicio__explicacion {
+  background-color: #504a5f;
+  text-align: center;
+}
+.servicio__explicacion__parrafo {
+  padding: 30px 10px 30px 10px;
+  margin-bottom: 0;
+  font-size: 20px;
+  color: rgb(237, 237, 237);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+.servicio__explicacion__parrafo2 {
+  display: none;
+}
+
+.container__titulo {
+  color: #504a5f;
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+.form-label {
+  color: #504a5f;
+}
+
+.boton-main2 {
+  color: rgb(237, 237, 237);
+  background-color: #504a5f;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  border: none;
+}
+.boton-main2:hover {
+  background-color: #69627d;
+}
+
+/* tarot */
+.contenedor__imagent {
+  background-image: url(../assets/fondotarotmob.png);
+  min-height: 120vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*flores*/
+.contenedor__imagenf {
+  background-image: url(../assets/fondofloresmob.png);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.flores-en-animales {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #504a5f;
+  justify-content: center;
+  padding: 20px;
+  border-top: 1px solid #808080;
+}
+.flores-en-animales__titulo {
+  font-size: 40px;
+  padding: 40px;
+  color: rgb(237, 237, 237);
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+.flores-en-animales__parrafo {
+  font-size: 20px;
+  padding: 10px;
+  color: rgb(237, 237, 237);
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+.flores-en-animales__contenedor {
+  width: 300px;
+  padding: 20px;
+}
+.flores-en-animales__contenedor__imagen {
+  width: 100%;
+  border-radius: 5px;
+}
+.flores-en-animales__contenedor__imagen2 {
+  display: none;
+}
+.flores-en-animales__contenedor__imagen3 {
+  display: none;
+}
+
+/*quien soy*/
+.principal__seccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.principal__seccion__contenedor {
+  width: 180px;
+  margin: 20px;
+}
+.principal__seccion__contenedor__imagen {
+  width: 100%;
+  border-radius: 50%;
+}
+.principal__seccion__parrafo {
+  text-align: center;
+  font-size: 15px;
+  margin: 30px;
+}
+.principal__seccion__enlace {
+  color: #504a5f;
+}
+
+/*preguntas*/
+.seccion {
+  padding: 10px;
+  margin: 30px;
+}
+.seccion__titulo {
+  font-family: "Great Vibes", cursive;
+  font-size: 60px;
+  text-align: center;
+  color: #504a5f;
+}
+
+.container__boton:hover {
+  box-shadow: 0 0 0 0.25rem rgba(80, 74, 95, 0.5);
+  background-color: #504a5f;
+  color: rgb(237, 237, 237);
+}
+
+/*footer*/
+.footer {
+  border-top: 1px solid black;
+  background-color: #504a5f;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+.footer__contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__contenedor__imagen {
+  width: 30px;
+  margin: 0 10px;
+}
+.footer__contenedor__parrafo {
+  margin-top: 10px;
+  font-size: 10px;
+  color: rgb(237, 237, 237);
+}
+
+/* media */
+@media screen and (min-width: 768px) {
+  .bienvenida {
+    background-image: url(../assets/fondoiniciotab.png);
+  }
+  .bienvenida__titulo {
+    font-size: 70px;
+  }
+  .bienvenida__texto1 {
+    display: none;
+  }
+  .bienvenida__texto2 {
+    display: block;
+    font-size: 15px;
+    padding: 10px;
+    color: rgb(237, 237, 237);
+    font-family: "merriweather";
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  }
+  .explicacion__titulo {
+    font-size: 70px;
+    color: rgb(237, 237, 237);
+  }
+  .titulo-card {
+    font-size: 33px;
+  }
+  /*reiki*/
+  .contenedor__imagen {
+    background-image: url(../assets/fondoreikidek.png);
+  }
+  .contenedor__imagen__titulo {
+    font-size: 160px;
+  }
+  .servicio__explicacion__parrafo {
+    padding: 40px;
+    font-size: 25px;
+  }
+  .container__titulo {
+    font-size: 100px;
+  }
+  /*tarot*/
+  .contenedor__imagent {
+    background-image: url(../assets/fondotarottab.png);
+  }
+  /*flores*/
+  .contenedor__imagenf {
+    background-image: url(../assets/fondoflorestab.png);
+    min-height: 120vh;
+  }
+  .flores-en-animales__titulo {
+    font-size: 80px;
+  }
+  .flores-en-animales__parrafo {
+    padding: 40px;
+    font-size: 25px;
+  }
+  .flores-en-animales__contenedor {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  .flores-en-animales__contenedor__imagen2 {
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0 25px 0 25px;
+  }
+  /*quien soy*/
+  .principal__seccion__contenedor {
+    width: 250px;
+  }
+  .principal__seccion__parrafo {
+    font-size: 17px;
+  }
+  /*footer*/
+  .footer__contenedor__parrafo {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .bienvenida {
+    background-image: url(../assets/fondoiniciodek.png);
+  }
+  .bienvenida__titulo {
+    font-size: 100px;
+  }
+  .bienvenida__texto2 {
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(237, 237, 237);
+    font-family: "merriweather";
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  }
+  .explicacion__titulo {
+    font-size: 100px;
+  }
+  .explicacion__parrafo {
+    font-size: 20px;
+    padding-bottom: 80px;
+  }
+  /*reiki*/
+  .contenedor____imagen {
+    background-image: url(../assets/fondoreikidek.png);
+    min-height: 110vh;
+  }
+  /* tarot*/
+  .contenedor__imagent {
+    background-image: url(../assets/fondotarotdek.png);
+    min-height: 110vh;
+  }
+  .servicio__explicacion__parrafo2 {
+    display: block;
+    padding: 40px;
+    margin-bottom: 0;
+    font-size: 25px;
+    color: rgb(237, 237, 237);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  }
+  /*flores*/
+  .contenedor__imagenf {
+    background-image: url(../assets/fondofloresdek.png);
+  }
+  .flores-en-animales__contenedor {
+    width: 400px;
+  }
+  .flores-en-animales__contenedor__imagen {
+    margin: 0 25px 0 25px;
+  }
+  .flores-en-animales__contenedor__imagen3 {
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0 25px 0 25px;
+  }
+  /* quien soy*/
+  .principal__seccion__contenedor {
+    width: 300px;
+  }
+  .principal__seccion__parrafo {
+    font-size: 20px;
+  }
+  /* preguntas */
+  .seccion__titulo {
+    font-size: 100px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

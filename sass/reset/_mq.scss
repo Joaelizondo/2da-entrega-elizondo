@@ -1,0 +1,208 @@
+/* media */
+
+@media screen and (min-width: 768px) {
+    .bienvenida{
+        background-image: url(../assets/fondoiniciotab.png) ;
+            &__titulo{
+                font-size: 70px;
+            }
+            &__texto1{
+                display: none;
+            }
+            &__texto2{
+                display: block;
+                font-size: 15px;
+                padding: 10px;
+                color: $blanco;
+                font-family: $fuente;
+                font-weight: 400;
+                text-align: center;
+                text-shadow: $sombra;
+            }
+    }
+    .explicacion{
+        &__titulo{
+            font-size: 70px;
+            color: $blanco;
+        }
+    }
+    .titulo-card{
+        font-size: 33px;
+    }
+    /*reiki*/
+
+    .contenedor{
+        &__imagen{
+            background-image: url(../assets/fondoreikidek.png);
+                &__titulo{
+                    font-size: 160px;
+                }
+        }
+    }
+    .servicio{
+        &__explicacion{
+            &__parrafo{
+                padding: 40px;
+                font-size: 25px;
+            }
+        }
+    }
+    .container{
+        &__titulo{
+            font-size: 100px;
+        }
+    }
+    /*tarot*/
+
+    .contenedor{
+        &__imagent{
+            background-image: url(../assets/fondotarottab.png);
+        }
+    }
+    /*flores*/
+
+    .contenedor{
+        &__imagenf{
+            background-image: url(../assets/fondoflorestab.png);
+            min-height: 120vh;
+        }
+    }
+
+    .flores-en-animales{
+        &__titulo{
+            font-size: 80px;
+        }
+        &__parrafo{
+            padding: 40px;
+            font-size: 25px;
+        }
+        &__contenedor{
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+                &__imagen2{
+                    display: flex;
+                    width: 100%;
+                    border-radius: 5px;
+                    margin: 0 25px 0 25px;
+                }
+        }
+    }
+    /*quien soy*/
+
+    .principal{
+        &__seccion{
+            &__contenedor{
+                width: 250px;
+            }
+            &__parrafo{
+                font-size: 17px;
+            }
+        }
+    }
+    /*footer*/
+    .footer{
+        &__contenedor{
+            &__parrafo{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1200px){
+    .bienvenida{
+        background-image: url(../assets/fondoiniciodek.png) ;
+            &__titulo{
+                font-size: 100px;
+            }
+            &__texto2{
+                display: block;
+                font-size: 20px;
+                padding: 10px;
+                color: $blanco;
+                font-family: $fuente;
+                font-weight: 400;
+                text-align: center;
+                text-shadow: $sombra;
+            }
+    }
+    .explicacion{
+        &__titulo{
+            font-size: 100px;
+        }
+        &__parrafo{
+            font-size: 20px;
+            padding-bottom: 80px;
+        }
+    }
+    /*reiki*/
+    .contenedor{
+        &____imagen{
+            background-image: url(../assets/fondoreikidek.png);
+            min-height: 110vh;
+        }
+    }
+    /* tarot*/
+
+    .contenedor {
+        &__imagent{
+            background-image: url(../assets/fondotarotdek.png);
+            min-height: 110vh;
+        }
+    }
+    .servicio{
+        &__explicacion{
+            &__parrafo2{
+                display: block;
+                padding: 40px;
+                margin-bottom: 0;
+                font-size: 25px;
+                color: $blanco;
+                text-shadow: $sombra;
+            }
+        }
+    }
+    /*flores*/
+
+    .contenedor{
+        &__imagenf{
+            background-image: url(../assets/fondofloresdek.png);
+        }
+    }
+    .flores-en-animales{
+        &__contenedor{
+            width: 400px;
+                &__imagen{
+                    margin: 0 25px 0 25px;
+                }
+                &__imagen3{
+                    display: flex;
+                    width: 100%;
+                    border-radius: 5px;
+                    margin: 0 25px 0 25px;
+                }
+        }
+    }
+
+    /* quien soy*/
+
+    .principal{
+        &__seccion{
+            &__contenedor{
+                width: 300px;
+            }
+            &__parrafo{
+                font-size: 20px;
+            }
+        }
+    }
+    /* preguntas */
+
+    .seccion{
+        &__titulo{
+            font-size: 100px;
+        }
+    }
+}
+

@@ -1,0 +1,263 @@
+/* index */
+
+.bienvenida{
+    min-height: 100vh;
+    background-image: url(../assets/fondoinicio.png) ;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+        &__titulo{
+            font-size: 40px;
+            padding: 40px;
+            color: $blanco;
+            font-family: $fuente-titulos;
+            font-weight: 400;
+            text-align: center;
+            text-shadow: $sombra;
+        }
+        &__texto1{
+            font-size: 15px;
+            padding: 10px;
+            color: $blanco;
+            font-weight: 400;
+            text-align: center;
+            text-shadow: $sombra;
+        }
+        &__texto2{
+            display: none;
+        }
+}
+
+.explicacion{
+    border-bottom: 1px solid black;
+    background-color: $color-principal;
+        &__titulo{
+            font-size: 40px;
+            padding: 40px;
+            font-family: $fuente-titulos;
+            font-weight: 400;
+            text-align: center;
+            color: $blanco;
+            text-shadow: $sombra;
+        }
+        &__parrafo{
+            text-align: center;
+            padding: 10px;
+            margin: 30px;
+            font-size: 15px;
+            color: $blanco;
+            text-shadow: $sombra;
+        }
+}
+
+.servicios__titulo{
+    font-size: 80px;
+    padding: 40px;
+    font-family: $fuente-titulos;
+    font-weight: 400;
+    text-align: center;
+    color: $color-principal;
+}
+
+.titulo-card{
+    font-family: $fuente-titulos;
+    font-size: 40px;
+    margin-top: 10px;
+    color: $color-principal;
+}
+
+.boton-main{
+    display: inline-block;
+    background-color: $color-principal;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+        &:hover{
+            background-color: $color-secundario;
+        }
+}
+
+.enlace-boton{
+    text-decoration: none;
+    color: $blanco;
+}
+
+/* reiki */
+
+.contenedor{
+    &__imagen{
+        background-image: url(../assets/reikiprincipal2.png);
+        min-height: 120vh;
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        background-position: center; 
+            &__titulo{
+                font-family: $fuente-titulos;
+                font-size: 120px;
+                color: $blanco;
+                font-weight: 400;
+                text-align: center;
+                text-shadow: $sombra;
+                position: absolute;
+                top: 70%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+    }
+}
+
+.servicio{
+    &__explicacion{
+        background-color: $color-principal;
+        text-align: center;
+            &__parrafo{
+                padding: 30px 10px 30px 10px;
+                margin-bottom: 0;
+                font-size: 20px;
+                color: $blanco;
+                text-shadow: $sombra;
+            }
+            &__parrafo2{
+                display: none;
+            }
+    }
+}
+
+.container__titulo{
+    color: $color-principal;
+    text-align: center;
+    font-family: $fuente-titulos;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.form-label{
+    color: $color-principal;
+}
+
+.boton-main2 {
+    color: rgb(237, 237, 237);
+    background-color: #504a5f;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+        &:hover{
+            background-color: $color-secundario;
+        }
+}
+
+/* tarot */
+
+.contenedor__imagent {
+    background-image: url(../assets/fondotarotmob.png);
+    min-height: 120vh;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+}
+
+/*flores*/
+
+.contenedor__imagenf {
+    background-image: url(../assets/fondofloresmob.png);
+    min-height: 100vh;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+}
+
+
+.flores-en-animales{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $color-principal;
+    justify-content: center;
+    padding: 20px;
+    border-top: 1px solid #808080;
+        &__titulo{
+            font-size: 40px;
+            padding: 40px;
+            color: $blanco;
+            font-family: $fuente-titulos;
+            font-weight: 400;
+            text-align: center;
+            text-shadow: $sombra;
+        }
+        &__parrafo{
+            font-size: 20px;
+            padding: 10px;
+            color: $blanco;
+            font-weight: 400;
+            text-align: center;
+            text-shadow: $sombra;
+        }
+        &__contenedor{
+            width: 300px;
+            padding: 20px;
+                &__imagen{
+                    width: 100%;
+                    border-radius: 5px;
+                }
+                &__imagen2{
+                    display: none;
+                }
+                &__imagen3{
+                    display: none;
+                }
+        }
+}
+
+/*quien soy*/
+
+.principal{
+    &__seccion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+            &__contenedor{
+                width: 180px;
+                margin: 20px;
+                    &__imagen{
+                        width: 100%;
+                        border-radius: 50%;
+                    }
+            }
+            &__parrafo{
+                text-align: center;
+                font-size: 15px;
+                margin: 30px;
+            }
+            &__enlace{
+                color: $color-principal;
+            }
+    }
+}
+
+/*preguntas*/
+
+.seccion{
+    padding: 10px;
+    margin: 30px;
+        &__titulo{
+            font-family: $fuente-titulos;
+            font-size: 60px;
+            text-align: center;
+            color: $color-principal;
+        }
+}
+
+.container__boton:hover {
+    box-shadow: 0 0 0 0.25rem rgba(80, 74, 95, 0.5); 
+    background-color: $color-principal;
+    color: $blanco;            
+}
+
+
+
+
+
+

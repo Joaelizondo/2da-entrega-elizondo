@@ -1,0 +1,33 @@
+
+/*footer*/
+
+.footer {
+    border-top: 1px solid black;
+    background-color: $color-principal;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+        &__contenedor{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+                &__imagen{
+                    width: 30px;
+                    margin: 0 10px;
+                }
+                &__parrafo{
+                    margin-top: 10px; 
+                    font-size: 10px;
+                    color: $blanco;
+                }
+        }
+}
+
+
+
+
+
+
