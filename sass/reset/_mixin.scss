@@ -1,0 +1,10 @@
+@mixin espacio ($p, $m) {
+    padding: $p;
+    margin: $m;
+}
+
+@mixin conf-fondo {
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+}

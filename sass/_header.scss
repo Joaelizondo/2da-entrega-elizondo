@@ -8,5 +8,5 @@
 }
 
 .navbar{
-    background-color: $color-principal;
+    background-color: map-get( $colores , principal );
 }

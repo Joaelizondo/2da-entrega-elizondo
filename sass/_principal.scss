@@ -3,9 +3,7 @@
 .bienvenida{
     min-height: 100vh;
     background-image: url(../assets/fondoinicio.png) ;
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: center;
+    @include conf-fondo;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -33,7 +31,7 @@
 
 .explicacion{
     border-bottom: 1px solid black;
-    background-color: $color-principal;
+    background-color: map-get( $colores , principal );
         &__titulo{
             font-size: 40px;
             padding: 40px;
@@ -45,8 +43,7 @@
         }
         &__parrafo{
             text-align: center;
-            padding: 10px;
-            margin: 30px;
+            @include espacio(10px, 30px);
             font-size: 15px;
             color: $blanco;
             text-shadow: $sombra;
@@ -59,24 +56,24 @@
     font-family: $fuente-titulos;
     font-weight: 400;
     text-align: center;
-    color: $color-principal;
+    color: map-get( $colores , principal );
 }
 
 .titulo-card{
     font-family: $fuente-titulos;
     font-size: 40px;
     margin-top: 10px;
-    color: $color-principal;
+    color: map-get( $colores , principal );
 }
 
 .boton-main{
     display: inline-block;
-    background-color: $color-principal;
+    background-color: map-get( $colores , principal );
     border-radius: 10px;
     padding: 10px;
     border: none;
         &:hover{
-            background-color: $color-secundario;
+            background-color: map-get( $colores , secundario );
         }
 }
 
@@ -91,9 +88,7 @@
     &__imagen{
         background-image: url(../assets/reikiprincipal2.png);
         min-height: 120vh;
-        background-repeat: no-repeat; 
-        background-size: cover; 
-        background-position: center; 
+        @include conf-fondo; 
             &__titulo{
                 font-family: $fuente-titulos;
                 font-size: 120px;
@@ -111,7 +106,7 @@
 
 .servicio{
     &__explicacion{
-        background-color: $color-principal;
+        background-color: map-get( $colores , principal );
         text-align: center;
             &__parrafo{
                 padding: 30px 10px 30px 10px;
@@ -127,7 +122,7 @@
 }
 
 .container__titulo{
-    color: $color-principal;
+    color: map-get( $colores , principal );
     text-align: center;
     font-family: $fuente-titulos;
     font-size: 50px;
@@ -135,18 +130,17 @@
 }
 
 .form-label{
-    color: $color-principal;
+    color: map-get( $colores , principal );
 }
 
 .boton-main2 {
-    color: rgb(237, 237, 237);
-    background-color: #504a5f;
+    color: $blanco;
+    background-color: map-get( $colores , principal );
     border-radius: 10px;
-    padding: 15px;
-    margin: 10px;
+    @include espacio (15px, 10px);
     border: none;
         &:hover{
-            background-color: $color-secundario;
+            background-color: map-get( $colores, secundario );
         }
 }
 
@@ -155,9 +149,7 @@
 .contenedor__imagent {
     background-image: url(../assets/fondotarotmob.png);
     min-height: 120vh;
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: center;
+    @include conf-fondo;
 }
 
 /*flores*/
@@ -165,16 +157,14 @@
 .contenedor__imagenf {
     background-image: url(../assets/fondofloresmob.png);
     min-height: 100vh;
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: center;
+    @include conf-fondo;
 }
 
 
 .flores-en-animales{
     display: flex;
     flex-wrap: wrap;
-    background-color: $color-principal;
+    background-color: map-get( $colores, principal );
     justify-content: center;
     padding: 20px;
     border-top: 1px solid #808080;
@@ -232,7 +222,7 @@
                 margin: 30px;
             }
             &__enlace{
-                color: $color-principal;
+                color: map-get( $colores, principal );
             }
     }
 }
@@ -240,19 +230,18 @@
 /*preguntas*/
 
 .seccion{
-    padding: 10px;
-    margin: 30px;
+    @include espacio (10px, 30px);
         &__titulo{
             font-family: $fuente-titulos;
             font-size: 60px;
             text-align: center;
-            color: $color-principal;
+            color: map-get( $colores, principal );
         }
 }
 
 .container__boton:hover {
     box-shadow: 0 0 0 0.25rem rgba(80, 74, 95, 0.5); 
-    background-color: $color-principal;
+    background-color: map-get( $colores, principal );
     color: $blanco;            
 }
 
