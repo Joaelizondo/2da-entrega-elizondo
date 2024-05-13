@@ -12,7 +12,7 @@
             padding: 40px;
             color: $blanco;
             font-family: $fuente-titulos;
-            font-weight: 400;
+            font-weight: $weight;
             text-align: center;
             text-shadow: $sombra;
         }
@@ -20,7 +20,7 @@
             font-size: 15px;
             padding: 10px;
             color: $blanco;
-            font-weight: 400;
+            font-weight: $weight;
             text-align: center;
             text-shadow: $sombra;
         }
@@ -36,7 +36,7 @@
             font-size: 40px;
             padding: 40px;
             font-family: $fuente-titulos;
-            font-weight: 400;
+            font-weight: $weight;
             text-align: center;
             color: $blanco;
             text-shadow: $sombra;
@@ -93,7 +93,7 @@
                 font-family: $fuente-titulos;
                 font-size: 120px;
                 color: $blanco;
-                font-weight: 400;
+                font-weight: $weight;
                 text-align: center;
                 text-shadow: $sombra;
                 position: absolute;
@@ -173,7 +173,7 @@
             padding: 40px;
             color: $blanco;
             font-family: $fuente-titulos;
-            font-weight: 400;
+            font-weight: $weight;
             text-align: center;
             text-shadow: $sombra;
         }
@@ -181,7 +181,7 @@
             font-size: 20px;
             padding: 10px;
             color: $blanco;
-            font-weight: 400;
+            font-weight: $weight;
             text-align: center;
             text-shadow: $sombra;
         }
